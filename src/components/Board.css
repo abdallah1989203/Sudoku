@@ -1,0 +1,17 @@
+.board {
+  display: inline-block;
+  border: 2px solid #333;
+  padding: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+.row:nth-child(3n) {
+  border-bottom: 2px solid #333;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
